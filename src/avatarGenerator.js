@@ -46,7 +46,7 @@ const avatarGenerator = async ({
   }
   
     </style>
-    <div id="main-content" style="height: 320px;width:320;background:${bg || 'rgb(252 165 165)'};">
+    <div id="main-content" style="height: 320px;width:320;background:${bg || 'rgb(143 205 152)'};">
         ${getParts('body', body, undefined, response)}
         ${getParts('hairs', hair, 32, response)}
         ${getParts('eyes', eye, 6, response)}
