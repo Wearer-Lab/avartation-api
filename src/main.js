@@ -16,7 +16,7 @@ if (isProduction) {
     puppeteer = require("puppeteer");
 }
 
-app.get('/', (_, res) => res.redirect(302, 'https://www.avatartion.com/'))
+app.get('/', (_, res) => res.redirect(302, 'https://www.productflo.io/'))
 app.get("/api", async (request, response) => {
 
     const options = isProduction ? {
