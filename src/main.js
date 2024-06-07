@@ -1,7 +1,7 @@
 const app = require('express')();
 const { avatarGenerator } = require('./avatarGenerator');
 const { config } = require('dotenv');
-const port = process.env.PORT ?? '3000';
+const port = process.env.PORT ?? '7088';
 
 config();
 
